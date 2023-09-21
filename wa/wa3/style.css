@@ -1,0 +1,42 @@
+.center {
+   
+    display: block;
+    border: 500px #9d2235;
+    margin: auto;
+    
+        }
+p {
+  font-family: 'Verdana';
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: 'Verdana';
+  background-color:#ec8695;
+  text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Verdana';
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+div {
+    width: auto;
+    height: 100x;
+    padding: 50px;
+    border: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color:#ec8695;
+  }
+
+li {
+
+    font-family: 'Verdana';
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
