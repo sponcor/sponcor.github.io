@@ -1,0 +1,101 @@
+body {
+    background-image: url('football.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+    background-color: #CFB87C;
+    text-align: center;
+    text-height: 50%;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+.div2 {
+    background-color: #a89564;
+    text-align: center;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+.div3 {
+    background-color: gray;
+    border: 2px solid rgb(54, 54, 54);
+    background-image: url('cu.png');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.div4 {
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    border: 2px solid rgb(54, 54, 54);
+    background-image: url('espn.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.div5 {
+    background-color: gray;
+    border: 2px solid rgb(54, 54, 54);
+    background-image: url('costate.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.div6 {
+    background-color: green;
+    text-align: center;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+.div7 {
+    background-color: rgb(1, 63, 1);
+    text-align: center;
+    text-height: 50%
+    border: 2px solid rgb(54, 54, 54);
+}
+
+
+.div-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2rem;
+    width: 100%;
+    transform: translateY(-50%);
+    line-height: -2em;
+    text-align: center;
+}
+
+.Shedeur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-size: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    transform: translateY(-50%);
+    line-height: -2em;
+    text-align: center;
+    height: 1rem;
+    background-color: #CFB87C;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    padding: .5rem;
+}
+
+img {
+    max-width: 10%;
+    object-fit: contain;
+    float: right;
+    top: 0rem;
+    right: 2rem;
+    position: absolute;
+}
