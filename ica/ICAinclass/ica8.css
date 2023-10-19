@@ -1,0 +1,28 @@
+
+.getbig {
+        animation: 3s infinite alternate getbig;
+    }
+
+@keyframes getbig {
+    from{
+        font-size: 1vw;
+        color: red;
+    }
+
+    to{
+        font-size: 100vw;
+        color: blue;
+    }
+}
+
+#hover {
+    font-size: 5vw;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+#hover:hover {
+    font-size: 15vw;
+    color: purple;
+}
