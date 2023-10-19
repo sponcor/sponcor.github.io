@@ -1,0 +1,39 @@
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+    transition-property: color;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+}
+
+
+#box1:hover {
+    font-size: 1vw;
+    background-color: purple;
+}
+
+#box2:hover {
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);
+    }
+
+    to {transform: rotate(360deg);
+    }
+}
