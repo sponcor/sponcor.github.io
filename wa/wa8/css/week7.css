@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAF9F6;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color:#5A5A5A;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+
+img{
+    width:auto;
+    height: auto;
+}
+
+#red-ball{
+    background-color: black;
+    font-size: 1vw;
+    width: 1vw;
+    height:1vw;
+    border-radius: 50%;
+    position: absolute;
+    right:11vw;
+    top:1vw;
+}
+
+#train {
+    position: absolute;
+    left: 0vw;
+    top: 0;
+}
+
+#train:hover {
+    animation-name: roll;
+    animation-duration: 10s;
+}
+
+#red-ball {
+transition: opacity 1s ease-in-out;
+animation: blink 2s linear infinite;
+}
+
+@keyframes roll {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 65%;
+    }
+}
+
+@keyframes blink {
+   25% {
+    opacity: .5;
+   }
+
+   50% {
+    opacity: 0;
+   }
+
+   75% {
+    opacity: .5;
+   }
+
+}
