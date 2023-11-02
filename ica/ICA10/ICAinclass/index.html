@@ -44,10 +44,14 @@
             b.style.top = e+"px";
         }
 
-    document.getElementById('changeColorButton').addEventListener('click', () => 
-    {
-    document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215);
-    });
+var z = document.querySelector("#changeColorButton");
+z.addEventListener("click", changecolor);
+
+function changecolor() 
+{
+    document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
+
     </script>
 </body>
 </html>
