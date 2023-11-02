@@ -37,7 +37,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* End Navigation Bar */
 
-/*Colorado Symphony Description */
+/*Colorado Symphony Description and Picture */
 
 .head {
     background-image: url("coloradosymphony.png");
@@ -77,6 +77,9 @@ h1 {
     vertical-align: center;
     padding: 70px 0;
 }
+
+/* I'm not sure if this div is needed. For the overlay WA I had a div-wrapper to alternate between columns but I'm not sure if that made any sense, but I still did it here anyways */
+
 .events {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #F6F6F6;
@@ -87,6 +90,8 @@ h1 {
     column-gap: 1em;
     padding: 1em;
 }
+
+/* Each card within the lineup */
 
 .card {
     background-color: #F6F6F6;
@@ -105,11 +110,13 @@ h1 {
     color: black;
   }
 
+/* I know there's a better way to do this in Javascript but I found a tutorial that allowed me to make collapsable boxes by hiding checkboxes. This is the checkbox */
+
 #ch,#ch2,#ch3,#ch4,#ch5,#ch6,#ch7,#ch8,#ch9 {
     display: none;
 }
 
-
+/* Each "read more" box */
 label {
     display: inline-block;
     cursor: pointer;
@@ -122,6 +129,7 @@ label {
     border-radius: 15px;
 }
 
+/* When checked, box shows extra content */
 #ch:checked ~ .content, #ch2:checked ~ .content, #ch3:checked ~ .content, #ch4:checked ~.content, #ch5:checked ~.content, #ch6:checked ~.content, #ch7:checked ~.content, #ch8:checked ~.content, #ch9:checked ~.content {
     display: block;
 }
@@ -189,7 +197,7 @@ p {
         }
         
         .headtext {
-            font-family:'Times New Roman', Times, serif;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: black;
             font-size: 1em;
             margin-top:1em;
