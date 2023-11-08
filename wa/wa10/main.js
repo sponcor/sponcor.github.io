@@ -7,13 +7,13 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = "It was 94 fahrenheit outside, so insertx went for a walk. When they got to inserty, they stared in horror for a few moments, then insertz. Bob saw the whole thing, but was not surprised — insertx weighs 300 pounds, and it was a hot day.";
+const storyText = "The CU Boulder campus was 'popping' as the kids nowadays say, so insertx went for a walk to find a function to crash. When they got to inserty, they looked in awe, then insertz. Bob offered to take a pic— insertx is a big fan, and Bob is a good friend.";
 
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
+const insertX = ["your mom", "Big Daddy", "Chad Brown"];
 
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
+const insertY = ["the darty", "football field", "Farrand Field"];
 
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+const insertZ = ["got down to their knees to praise Shedeur Sanders", "took a selfie with Coach Prime", "dapped up Travis Hunter"];
 
 randomize.addEventListener('click', result);
 
