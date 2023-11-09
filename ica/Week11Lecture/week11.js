@@ -30,7 +30,7 @@ function random(number) {
 
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 1000; i++) {
         ctx.beginPath();
         let red = random(255);
         let green = random(255);
@@ -42,7 +42,7 @@ function draw() {
         ctx.arc(
             random(canvas.width),
             random(canvas.height),
-            random(50),
+            random(500),
             0,
             2 * Math.PI
         );
