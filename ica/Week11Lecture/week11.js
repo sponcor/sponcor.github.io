@@ -39,12 +39,11 @@ function draw() {
         let color = "rgba(" + red + "," + green + "," + blue + "," + alpha + ")";
         console.log(color);
         ctx.fillStyle = color; 
-        ctx.arc(
+        ctx.rect(
             random(canvas.width),
             random(canvas.height),
             random(500),
-            0,
-            2 * Math.PI
+            10
         );
         ctx.fill();
     }
