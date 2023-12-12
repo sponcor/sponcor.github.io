@@ -13,7 +13,7 @@ function reset(){
 
 function convertToRoman(num) {
     if (num < 1 || num > 9999999999) {
-      return "Number out of range for Roman numeral conversion (1 to 1 billion)";
+      return "Number out of range for Roman numeral conversion (1 to 10 billion)";
     }
   
     const romanNumerals = [
