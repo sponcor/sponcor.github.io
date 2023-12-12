@@ -86,7 +86,7 @@ p {
 .testNum {
   display: block;
   color: white;
-  background-color:rgb(211, 185, 134);
+  background-color: rgb(157, 137, 98);
   border-radius: 4px;
   border: none;
   padding: 10px 20px;
@@ -100,6 +100,6 @@ p {
 }
 
 .testNum:hover {
-  background-color: rgb(157, 196, 230);
+  background-color:rgb(211, 185, 134);
   cursor:pointer;
 }
