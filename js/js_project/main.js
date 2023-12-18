@@ -1,9 +1,14 @@
-var currentValue = 0
+var currentValue = 0;
+var alertShown = false;
 
 function numberGoUp() {
     const counter = document.querySelector('#number');
-        currentValue += Math.floor(Math.random() * 900);
+        currentValue += Math.floor(Math.random() * 2000);
         counter.innerHTML = convertToRoman(currentValue);
+        if(currentValue > 10000 && !alertShown) {
+          alert(`The mathematicians of Rome would like to extend their sincerest apologies, for they do not have written documentation for numbers above 1000, represented by the letter "M". You might have to chisel a lot more to get a valid phone number.`);
+          alertShown = true;
+        }
 }
 function reset(){
     const counter = document.querySelector('#number');
@@ -46,6 +51,11 @@ function convertToRoman(num) {
     return result;
   }
 
-  function sendText() {
-    alert("WARNING: THIS WILL ACTUALLY SEND A TEXT MESSAGE TO WHATEVER NUMBER IS ON THIS BROWSER. MAKE SURE THAT THIS IS YOUR PHONE NUMBER TO AVOID TEXTING A RANDOM PERSON.");
+  function translatedNum() {
+  if (currentValue < 1000000000) {
+    alert(`The emperor's mathematicians have calculated that this value (${currentValue}) may not be your phone number. Please chisel out some more numerals to properly express your number.`)
+  }
+  else {
+    alert(`Congratulations, Roman citizen. You have chiseled ${currentValue} as your phone number.`)
+  };
   }

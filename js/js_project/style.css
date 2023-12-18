@@ -56,6 +56,9 @@ p {
     border-radius: 5px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
     padding: 20px;
+    overflow-y:scroll;
+    max-height:none;
+    max-width:1500px;
   }
   
   .button {
@@ -79,9 +82,13 @@ p {
     cursor:pointer;
   }
 
-.number {
-  margin: auto;
-}
+  #number {
+    font-size: 2em;
+    margin: auto;
+    height: 300px; 
+    overflow-y: auto; 
+    word-wrap: break-word;
+  }
 
 .testNum {
   display: block;
